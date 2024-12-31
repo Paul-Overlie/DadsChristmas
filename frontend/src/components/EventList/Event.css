@@ -1,0 +1,337 @@
+.SpecificEventContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SpecificEventFirst {
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.SpecificEventFirst>a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.SpecificEventFirstTitle {
+    font-size: .8cm;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.SpecificEventFirstName {
+    color: grey;
+}
+
+.SpecificEventSecondOutside {
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.SpecificEventSecondInside {
+    background-color: rgb(224, 224, 224);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.SESFirst {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.SpecificEventSecondImg {
+    height: 200px;
+    width: 50%;
+}
+
+.SESFirstGroupContainer {
+    width: 100%;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    background-color: white;
+}
+
+.SESFirstGroupContainer>img {
+    height: 50px;
+    width: 25%;
+    margin-right: 10px;
+}
+
+.SESFirstName {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SESFirstPrivate {
+    color: grey;
+}
+
+.SESFirstEventContainer {
+    width: 100%;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.SESFirstRight {
+    width: 40%;
+}
+
+.SESFirstTime {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.SESFirstTimes {
+    margin-left: 10px;
+}
+
+.SESFirstPrice {
+    display: flex;
+    align-items: center;
+}
+
+.SESFirstPrice>* {
+    margin-right: 10px;
+}
+
+.SESFirstPlace {
+    display: flex;
+    align-items: center;
+}
+
+.SESFirstPlace>* {
+    margin-right: 10px;
+}
+
+.SpecificEventThirdContainer {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.SpecificEventThirdTitle {
+    font-size: .8cm;
+    margin-bottom: 10px;
+}
+
+.SpecificEventThirdDescription {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SESFirstButtons {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: auto;
+}
+
+.SESFirstButtons>button {
+    background-color: rgb(130, 130, 130);
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+
+.EventsListContainerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.EventsListContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.EventsListTitlePages {
+    display: flex;
+    align-items: center;
+}
+
+.EventsListTitleDisabled {
+    font-size: .8cm;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: teal;
+    text-decoration: underline;
+    cursor: default;
+}
+
+.EventsListTitleEnabled {
+    font-size: .8cm;
+    color: grey;
+    text-decoration: none;
+    margin: 5%;
+}
+
+.EventsListTitle {
+    color: grey;
+    font-size: .6cm;
+    margin-bottom:4%;
+}
+
+.EventsListLinks {
+    border-top: solid 3px grey;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.EventsListLinks>img {
+    height: 150px;
+    width: 150px;
+    margin-right: 5%;
+}
+
+.EventsListText {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.EventsListPlace {
+    color: grey;
+}
+
+.EventsListDescription {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CreateEventFormContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CreateEventForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.CreateEventTitle {
+    font-size: .8cm;
+    margin-top: 20px;
+}
+
+.CreateEventNormal {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.CreateEventInput {
+    margin-bottom: 20px;
+    background-color: rgb(196, 212, 255);
+    border: 3px solid black;
+}
+
+.UnderALine {
+    width: 100%;
+    border-top: 3px grey solid;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.GapInput {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.CreateEventButton {
+    width: 50%;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 3px black solid;
+    box-shadow: 3px 3px black;
+}
+
+.CreateEventSnugInput {
+    width: fit-content;
+}
+
+.Money {
+    padding-right: -10px;
+}
+
+.MoneyContainer {
+    display: flex;
+}
+
+.RightInput {
+    direction: rtl;
+}
+
+.CreateError {
+    color: red;
+}
+
+.DeleteEventContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.DeleteEventConfirmation {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: black;
+    font-size: .8cm;
+}
+
+.DeleteEventQuestion {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.DeleteEventYes {
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 200px;
+    border: black solid 3px;
+    box-shadow: 3px 3px black;
+    margin-bottom: 10px;
+}
+
+.DeleteEventNo {
+    background-color: rgb(99, 99, 99);
+    color: white;
+    height: 30px;
+    width: 200px;
+    border: black solid 3px;
+    box-shadow: 3px 3px black;
+    margin-bottom: 10px;
+}

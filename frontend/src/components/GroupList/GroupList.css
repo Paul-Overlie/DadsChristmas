@@ -1,0 +1,350 @@
+.GroupListPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.GroupListNavs {
+    display: flex;
+    width: 60%;
+}
+
+.GroupListNavEnabled {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: grey;
+    text-decoration: none;
+    font-size: .8cm;
+}
+
+.GroupListNavDisabled {
+    margin: 5%;
+    color: teal;
+    text-decoration: underline;
+    font-size: .8cm;
+}
+
+.GroupListNavDisabled:hover {
+    cursor: default;
+}
+
+.GroupListItemsContainer {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.GroupListCaption {
+    font-size: .6cm;
+    color: grey;
+    margin-bottom: 4%;
+    width: 100%;
+}
+
+.GroupListItems {
+    border-top: solid 3px grey;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.GroupListImage {
+    height: 150px;
+    width: 150px;
+    margin-right: 5%;
+}
+
+.GroupListText {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.GroupListName {
+    font-size: .8cm;
+    color: black;
+    font-weight: bold;
+}
+
+.GroupListLocation {
+    font-size: .6cm;
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.GroupListDescription {
+    color: black;
+    margin-bottom: 8px;
+}
+
+.GroupListEventsAndPublic {
+    color: grey;
+}
+
+.SpecificGroupContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SpecificGroupTopContainer {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.SpecificGroupTopContainer>a {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.SpecificGroupTopContainer>img {
+    width: 40%;
+    height: 300px;
+}
+
+.SpecificGroupTopText {
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.SpecificGroupTitle {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1cm;
+    color: black;
+}
+
+.SpecificGroupTexts {
+    color: grey;
+    margin-top: 10px;
+}
+
+.SpecificGroupOwnerButtons {
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+
+.SpecificGroupOwnerButton {
+    margin-right: 5px;
+    background-color: rgb(122, 122, 122);
+    color: white;
+    box-shadow: black 3px 3px;
+}
+
+.SpecificGroupUserButton {
+    margin-top: auto;
+    background-color: red;
+    color: white;
+    width: 50%;
+    height: 30px;
+    box-shadow: 3px 3px black;
+}
+
+.SpecificGroupBottomContainerContainer {
+    width: 100%;
+    margin-top: 25px;
+    padding-top: 25px;
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SpecificGroupBottomContainer {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.SpecificGroupBottomOrganizer {
+    font-size: 1cm;
+}
+
+.SpecificGroupBottomName {
+    color: grey;
+    margin-top: 10px;
+}
+
+.SpecificGroupBottomAbout {
+    margin-top: 20px;
+    font-size: 1cm;
+}
+
+.SpecificGroupBottomDescription {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SpecificGroupBottomEventsTitle {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1cm;
+}
+
+.SpecificGroupBottomContainer>a {
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.NavTop {
+    display: flex;
+    padding: 10px;
+}
+
+.NavTopRight {
+    margin-left: 10px;
+}
+
+.NavTopName {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.NavTopPlace {
+    color: grey;
+}
+
+.NavBottom {
+    padding-bottom: 10px;
+    width: 100%;
+    height: fit-content;
+}
+
+.CreateGroupFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CreateGroupForm {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.CreateGroupTitle {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: .8cm;
+    width: 100%;
+    border-bottom: 3px solid grey;
+}
+
+.createGroup1 {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid grey;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.createGroup1Command {
+    font-size: .8cm;
+    margin-bottom: 10px;
+}
+
+.createGroup1Input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid black 3px;
+    background-color: rgb(209, 218, 255);
+    width: 40%;
+}
+
+.createGroup3Input {
+    height: 150px;
+    width: 40%;
+}
+
+.createGroup4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.createGroup4Input {
+    width: 150px;
+    border: 3px black solid;
+    background-color: rgb(209, 218, 255);
+}
+
+.createGroupOption {
+    border: 3px black solid;
+    background-color: rgb(209, 218, 255);
+}
+
+.CreateGroupForm>button {
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border: 3px black solid;
+    box-shadow: 3px 3px black;
+}
+
+.createGroupErrors {
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.DeleteGroupContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.DeleteGroupConfirmation {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: black;
+    font-size: .8cm;
+}
+
+.DeleteGroupQuestion {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.DeleteGroupYes {
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 200px;
+    border: black solid 3px;
+    box-shadow: 3px 3px black;
+    margin-bottom: 10px;
+}
+
+.DeleteGroupNo {
+    background-color: rgb(99, 99, 99);
+    color: white;
+    height: 30px;
+    width: 200px;
+    border: black solid 3px;
+    box-shadow: 3px 3px black;
+    margin-bottom: 10px;
+}

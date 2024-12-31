@@ -1,0 +1,210 @@
+.profile-dropdown {
+  position: absolute;
+  background-color: burlywood;
+  right: 30px;
+  top: 50px;
+}
+
+.userMenu-dropdown {
+  position:absolute;
+  background-color: burlywood;
+  right: 160px;
+}
+
+.hidden {
+  display: none;
+}
+
+.NavContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.NavHomeIcon {
+  height: 100%;
+  margin-left: 30px;
+}
+
+.NavHomeIconImg {
+  height:100%
+}
+
+.NavProfileButtonContainer {
+  height: 100%;
+  display: flex;
+}
+
+.NavCreateGroup {
+  color: teal;
+  align-self: center;
+  justify-self: center;
+  text-decoration: none;
+}
+
+.NavProfileButton {
+  height: 100%;
+}
+
+.userProfileButtonContainer {
+  height: 100%;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+
+}
+
+.ProfileButtonContainer {
+  height: 100%;
+  margin-left: 15px;
+}
+
+.ProfileButtonImg {
+  height: 100%;
+}
+
+.ProfileButtonArrow {
+  height: 100%;
+  font-size: 0.5cm;
+}
+
+.greyLine {
+  height: 5px;
+  width: 100%;
+  background-color: grey;
+}
+
+#modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px
+}
+
+.LoginTitle {
+  width: fit-content;
+}
+
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LoginForm>input {
+  margin: 10px;
+  border: solid black 3px;
+}
+
+.LoginForm>button {
+  border: 2px grey;
+  box-shadow: 3px 3px grey;
+  margin: 10px;
+}
+
+.LoginForm>p {
+  color: red;
+}
+
+.LoginButton {
+  border: 0;
+  border-bottom: 3px black solid;
+  background-color: white;
+}
+
+.LandingFirst {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.LandingFirstLeft {
+  width: 45%;
+  margin-right: 30px;
+}
+
+.LandingFirstRight {
+  width: 45%;
+  height: 500px;
+}
+
+.LandingFirstLeft>div {
+  height: 45%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.LandingFirstLeftTitle {
+  font-size: 1cm;
+  font-weight: bold;
+}
+
+.LandingFirstLeftText {
+  font-size: 0.5cm;
+}
+
+.LandingSecond {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.LandingSecondSubtitle {
+  font-size: 0.8cm;
+  font-weight: bold;
+}
+
+.LandingSecondCaption {
+  font-size: 0.5cm;
+}
+
+.LandingThird {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.LandingThird>div {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+}
+
+.LandingThirdIcon {
+  font-size: 2cm;
+}
+
+.LandingThirdLink {
+  font-size: .6cm;
+  font-weight: bold;
+  margin: 15px;
+  color: teal;
+}
+
+.LandingThird3DisabledLink {
+  font-size: .6cm;
+  font-weight: bold;
+  margin: 15px;
+  color: grey;
+}
+
+.LandingThird3DisabledLink:hover {
+  cursor: default;
+}
+
+.LandingFourth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LandingFourth>button {
+  font-size: 1cm;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,29 @@
+.SignupTitle {
+    font-weight: bold;
+}
+.SignupContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.SignupContainer>input {
+    margin: 5px;
+    border: solid black 3px;
+}
+
+.SignupContainer>button:enabled {
+    box-shadow: 3px 3px black;
+    background-color: red;
+    color: white;
+    border: solid black 3px;
+}
+
+.SignupContainer>button:disabled {
+    box-shadow: 3px 3px grey;
+    border: solid grey 3px;
+}
+
+.SignupContainer>p {
+    color: red;
+    margin: 5px;
+}
